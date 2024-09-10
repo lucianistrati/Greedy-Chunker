@@ -60,3 +60,7 @@ Here is a solution. Also, notice how this solution contains one less chunk as we
 chunks = ["She had abdominal pain and fever for an", "an hour. Vomiting was not present."]
 ...
 ```
+
+# Running
+
+pytest task.py
