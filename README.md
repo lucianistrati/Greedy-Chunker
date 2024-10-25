@@ -1,6 +1,6 @@
 # Greedy Chunker
 
-We would like to train an NLP model to recognize entities (e.g. symptoms) in a text. But, some NLP models can only process a limited number of words at a time. Therefore, we need to cut the text into appropriately sized pieces or chunks. Implement the function `chunkify` in `task.py` which accomplishes exactly that.
+We would like to train an NLP model to recognize entities (e.g. symptoms) in a text. But, some NLP models can only process a limited number of words at a time. Therefore, we need to cut the text into appropriately sized pieces or chunks. Implement the function `chunkify` in `main.py` which accomplishes exactly that.
 
 The output of `chunkify` must fulfill the following constraints: 
 
@@ -63,4 +63,4 @@ chunks = ["She had abdominal pain and fever for an", "an hour. Vomiting was not 
 
 # Running
 
-pytest task.py
+pytest main.py
